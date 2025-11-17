@@ -15,7 +15,7 @@ export const balances: Record<string, number> = {
 };
 
 export const getLocalIconPath = (symbol: string): string => {
-  return `/assets/${symbol}.svg`;
+  return `https://raw.githubusercontent.com/Switcheo/token-icons/main/tokens/${symbol}.svg`;
 };
 
 export const SelectTokenType = {
